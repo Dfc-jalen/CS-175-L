@@ -1,4 +1,4 @@
-total = 0
+
 com1 = float(input('Enter Comission rate percentage (ex 0.03) on stock purchase: '))
 com2 = float(input('Enter Comission rate percentage (ex 0.03) on stock sale: '))
 
