@@ -14,9 +14,9 @@ commision1 = shares1*purchase*com1
 stock_sell = (shares1*sell)
 profit = stock_sell - Amountpaid - commision2 - commision1 
 
-print(f'Amount paid for the stock ${Amountpaid:,.2f}')
-print(f'Amount paid for the stock ${commision1:,.2f}')
-print(f'Amount paid for the stock ${stock_sell:,.2f}')
-print(f'Amount paid for the stock ${commision2:,.2f}')
-print(f'Amount paid for the stock ${profit:,.2f}')
+print(f'Amount paid for the stock: ${Amountpaid:,.2f}')
+print(f'Commision paid on the purchase: ${commision1:,.2f}')
+print(f'Amount the Stock sold for: ${stock_sell:,.2f}')
+print(f'Commision paid on the sale: ${commision2:,.2f}')
+print(f'Profit (or lose if negatve) : ${profit:,.2f}')
  
