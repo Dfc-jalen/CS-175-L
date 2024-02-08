@@ -1,3 +1,8 @@
+# CS 175 LAB
+# JALEN SMITH
+# PROFESSOR ECKERT 
+# Restaurant
+
 
 # print(Style.BRIGHT + Fore.RED + "CHEESY")
 
