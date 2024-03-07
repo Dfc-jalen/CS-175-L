@@ -2,18 +2,17 @@
 #Mr. Eckert
 #CS 176-L
 
-
-
-
 #line in 'numbers.txt'
 
 def main():
     
-    infile = open('numbers.txt', 'r')
+    infile = open('num.txt', 'r')
 
     count = 0
     total = 0 
-    for line in ('numbers.txt','r',3):
+    for line in infile:
+        print("The content of line is:", line)
+        
         ask = float(input('enter a number: '))
         total = ask + total
         count +=1
@@ -21,10 +20,6 @@ def main():
         print('')
     r = total/count
     print('Average:',str(float(r)))
-
-
-
-    
 
 
 # Call the main function.
