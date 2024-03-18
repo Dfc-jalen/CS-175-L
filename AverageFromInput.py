@@ -9,15 +9,24 @@ def main():
     infile = open('num.txt', 'r')
 
     count = 0
-    total = 0 
+    total = 0
+    numbers = 0
     for line in infile:
-        print("The content of line is:", line)
         
-        ask = float(input('enter a number: '))
-        total = ask + total
-        count +=1
-        print('I read in', count,'number(s)','Current number is:', total, 'Total is: ', total)
-        print('')
+        
+        line = line.strip()
+        line = float(line)
+        line1 = round(line,2)
+            
+        numbers += 1
+            
+        total = total + float(line)
+        
+            #print('I read in', numbers,'number(s)','Current number is:',   float(line)   , '  Total is: ', total)
+        print(f'I read in number(s) {numbers} Current number is:   {line}0     Total is:  {total:>5}0')
+            
+
+        count+=1
     r = total/count
     print('Average:',str(float(r)))
 
